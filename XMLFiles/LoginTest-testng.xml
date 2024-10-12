@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+
+        <listener class-name = "Listeners.ExtentReportListner"></listener>
+
+    </listeners>
+
+
+
+    <test verbose="2" preserve-order="true" name="/Users/muhammadqaiser/Documents/Automation Stuff/OrangeHRMPracticeFramework/src/test/java/Tests/LogInTest.java"><classes><class name="Tests.LogInTest"><methods><include name="invalidLogIn"/><include name="validLogInToApplication"/></methods></class></classes></test></suite>
