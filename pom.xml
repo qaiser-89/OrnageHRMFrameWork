@@ -71,7 +71,7 @@
                 <version>3.5.0</version>
                 <configuration>
                     <suiteXmlFiles>
-                       // <suiteXmlFile>XMLFiles/LoginTest-testng.xml</suiteXmlFile>
+                       <suiteXmlFile>XMLFiles/AddNewUserInAdmin.xml</suiteXmlFile>
                         <suiteXmlFile>XMLFiles/LoginTest-testng1.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>

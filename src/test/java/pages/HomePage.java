@@ -14,7 +14,7 @@ public class HomePage {
 
     protected By dashboard = By.xpath("//h6[normalize-space()='Dashboard']");
     protected By admin_btn = By.xpath("//span[normalize-space()='Admin']");
-
+    protected By pim_btn = By.xpath("//a[normalize-space()='PIM']");
 
     public void loginValidation()
     {
@@ -24,8 +24,13 @@ public class HomePage {
 
     public void clickOnAdminModule()
     {
-        Utility.clickElement(driver, driver.findElement(admin_btn));
+        Utility.waitForElement(driver, admin_btn).click();
 
+    }
+
+    public void clickOnPIMModule()
+    {
+        Utility.waitForElement(driver, pim_btn).click();
     }
 
 }

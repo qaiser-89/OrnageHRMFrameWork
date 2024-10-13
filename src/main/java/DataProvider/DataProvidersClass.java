@@ -10,6 +10,14 @@ public class DataProvidersClass
 		Object[][] arr=	ExcelReader.getDataFromExcel("LoginData");
 		return arr;
 	}
+
+
+	@DataProvider(name= "TestDataForAddingUser")
+	public static Object[][] getDataForAddUser()
+	{
+		Object[][] arr=	ExcelReader.getDataFromExcel("AddUserData");
+		return arr;
+	}
 	
 
 }

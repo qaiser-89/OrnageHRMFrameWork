@@ -15,6 +15,6 @@ public class AdminPage {
 
     public void clickOnAdminBtn()
     {
-        Utility.clickElement(driver, Utility.waitForElement(driver , add_btnd));
+        Utility.clickElement(driver, Utility.waitForElement(driver , add_btnd)); // Double check this step if it works as we are using driver twice!!!!!
     }
 }
