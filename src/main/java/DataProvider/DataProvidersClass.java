@@ -18,6 +18,13 @@ public class DataProvidersClass
 		Object[][] arr=	ExcelReader.getDataFromExcel("AddUserData");
 		return arr;
 	}
+
+	@DataProvider(name= "TestDataForAddingPIMUser")
+	public static Object[][] getDataToAddPIMUser()
+	{
+		Object[][] arr=	ExcelReader.getDataFromExcel("AddPIMUserData");
+		return arr;
+	}
 	
 
 }
