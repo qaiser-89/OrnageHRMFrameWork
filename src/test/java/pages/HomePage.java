@@ -28,9 +28,12 @@ public class HomePage {
 
     }
 
-    public void clickOnPIMModule()
+    public AddPIMUserPage clickOnPIMModule()
     {
         Utility.waitForElement(driver, pim_btn).click();
+
+        AddPIMUserPage addPIM=new AddPIMUserPage(driver);
+        return addPIM;
     }
 
 }
