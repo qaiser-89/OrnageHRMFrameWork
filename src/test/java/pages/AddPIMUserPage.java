@@ -1,8 +1,10 @@
 package pages;
 
 import Helper.Utility;
+import com.github.javafaker.Faker;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.testng.Reporter;
 
 public class AddPIMUserPage
 {
@@ -39,10 +41,38 @@ public class AddPIMUserPage
         Utility.waitForElement(driver, save_btn).click();
         Utility.waitForElement(driver, success_msg).isDisplayed();
     }
+        Faker fake=new Faker();
+    //same testcase by using fakers class/library:
+
+    public void addNewPMIUserUsingFackerClass()
+    {
+        Utility.waitForElement(driver, add_btn).click();
+        String fname = fake.name().firstName();
+        Utility.waitForElement(driver, emp_first_name).sendKeys(fname);
+        String mname = fake.name().lastName();
+        Utility.waitForElement(driver, emp_middle_name).sendKeys(mname);
+        String lname = fake.name().lastName();
+        Utility.waitForElement(driver, emp_last_name).sendKeys(lname);
+        Utility.waitForElement(driver, emp_id_field).sendKeys("1");
+        Utility.waitForElement(driver, create_login_btn).click();
+        String usrname = fake.name().fullName();
+        Utility.waitForElement(driver, user_name_btn).sendKeys(usrname);
+        Utility.waitForElement(driver, password_field).sendKeys("Test@123");
+        Utility.waitForElement(driver, password_con_field).sendKeys("Test@123");
+        Utility.waitForElement(driver, save_btn).click();
+        Utility.waitForElement(driver, success_msg).isDisplayed();
+        Reporter.log("Fake fname used is"+fname, true);
+        Reporter.log("Fake mname used is"+mname, true);
+        Reporter.log("Fake lname used is"+lname, true);
+        Reporter.log("Fake usrname used is"+usrname, true);
+    }
 
     public boolean checkCancelBtnAvailable()
     {
       boolean  canbt = Utility.waitForElement(driver, cancel_btn).isDisplayed();
         return canbt;
     }
+
+
+
 }
