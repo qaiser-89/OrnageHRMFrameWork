@@ -10,7 +10,7 @@ import pages.LoginPage;
 public class AddPIMUserTest extends BaseClass
 {
     @Test(dataProvider = "TestDataForAddingPIMUser", dataProviderClass = DataProvidersClass.class)
-    public void AddPIMNewUser(String loginUname, String loginPass, String F_name, String M_name, String L_name, String id_to, String U_name, String pass_to_add, String conPass_to_add  )
+    public void AddPIMNewUser(String loginUname, String loginPass, String F_name, String M_name, String L_name, String id_to, String U_name, String pass_to_add, String conPass_to_add)
     {
         LoginPage login=new LoginPage(driver);
         HomePage home=new HomePage(driver);
