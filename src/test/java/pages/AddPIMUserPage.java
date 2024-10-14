@@ -12,11 +12,11 @@ public class AddPIMUserPage
         this.driver= driver;
     }
 
-    protected By add_btn = By.xpath("//li[contains(.,'Add Employee')]");
+    protected By add_btn = By.xpath("/html/body/div/div[1]/div[1]/header/div[2]/nav/ul/li[3]/a");
     protected By emp_first_name = By.xpath("//input[@placeholder='First Name']");
     protected By emp_middle_name = By.xpath("//input[@placeholder='Middle Name']");
     protected By emp_last_name = By.xpath("//input[@placeholder='Last Name']");
-    protected By emp_id_field = By.xpath("//li[@class='oxd-topbar-body-nav-tab --visited']"); //First clear and then add id code
+    protected By emp_id_field = By.xpath("//body/div[@id='app']/div/div/div/div/div/form/div/div/div/div/div/div/div/input[1]"); //First clear and then add id code
     protected By create_login_btn = By.xpath("//body/div[@id='app']/div/div/div/div/div/form/div/div/div/div/label/span[1]");
     protected By user_name_btn = By.xpath("//body[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/form[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[2]/input[1]");
     protected By password_field = By.xpath("//body[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/form[1]/div[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[2]/input[1]");

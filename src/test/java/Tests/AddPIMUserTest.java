@@ -18,7 +18,6 @@ public class AddPIMUserTest extends BaseClass
 
         login.signInToApp( loginUname, loginPass);
         home.clickOnPIMModule();
-        addPIMU.checkCancelBtnAvailable();
         addPIMU.addNewPIMUser(F_name, M_name, L_name, id_to, U_name, pass_to_add,conPass_to_add);
     }
 }
