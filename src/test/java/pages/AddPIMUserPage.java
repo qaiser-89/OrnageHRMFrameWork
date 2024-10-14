@@ -23,7 +23,6 @@ public class AddPIMUserPage
     protected By password_con_field = By.xpath("//body[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/form[1]/div[1]/div[2]/div[4]/div[1]/div[2]/div[1]/div[2]/input[1]");
     protected By cancel_btn = By.xpath("//button[normalize-space()='Cancel']");
     protected By save_btn = By.xpath("//button[normalize-space()='Save']");
-    protected By success_msg = By.xpath("");
 
 
     public void addNewPIMUser(String Fname,String Mname, String Lname, String id, String Uname,String pass, String conPass)
