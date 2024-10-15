@@ -79,6 +79,7 @@
                     <suiteXmlFiles>
                        <suiteXmlFile>XMLFiles/AddNewUserInAdmin.xml</suiteXmlFile>
                         <suiteXmlFile>XMLFiles/LoginTest-testng1.xml</suiteXmlFile>
+                        <suiteXmlFile>XMLFiles/AddedNewUserInPIMModule.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
