@@ -18,11 +18,11 @@ public class AddPIMUserPage
     protected By emp_first_name = By.xpath("//input[@placeholder='First Name']");
     protected By emp_middle_name = By.xpath("//input[@placeholder='Middle Name']");
     protected By emp_last_name = By.xpath("//input[@placeholder='Last Name']");
-    protected By emp_id_field = By.xpath("//body/div[@id='app']/div/div/div/div/div/form/div/div/div/div/div/div/div/input[1]"); //First clear and then add id code
-    protected By create_login_btn = By.xpath("//body/div[@id='app']/div/div/div/div/div/form/div/div/div/div/label/span[1]");
-    protected By user_name_btn = By.xpath("//body[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/form[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[2]/input[1]");
-    protected By password_field = By.xpath("//body[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/form[1]/div[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[2]/input[1]");
-    protected By password_con_field = By.xpath("//body[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/form[1]/div[1]/div[2]/div[4]/div[1]/div[2]/div[1]/div[2]/input[1]");
+    protected By emp_id_field = By.xpath("//label[text()='Employee Id']//following::input[1]"); //First clear and then add id code
+    protected By create_login_btn = By.xpath("//p[text()='Create Login Details']/following::div[1]");
+    protected By user_name_btn = By.xpath("//label[text()='Username']/following::div[1]");
+    protected By password_field = By.xpath("//label[text()='Password']/following::div[1]");
+    protected By password_con_field = By.xpath("//label[text()='Confirm Password']/following::div[1]");
     protected By cancel_btn = By.xpath("//button[normalize-space()='Cancel']");
     protected By save_btn = By.xpath("//button[normalize-space()='Save']");
     protected By success_msg = By.xpath("//p[contains(.,'Successfully Saved')]");
@@ -30,14 +30,14 @@ public class AddPIMUserPage
 
 
 
-    protected By other_id_field = By.xpath("//body/div[@id='app']/div/div/div/div/div/div/div/div/form/div/div/div[2]/div[1]/div[2]/input[1]");
-    protected By driving_license = By.xpath("//body/div[@id='app']/div/div/div/div/div/div/div/div/form/div/div[2]/div[1]/div[1]/div[2]/input[1]");
-    protected By license_expiry = By.xpath("//body/div[@id='app']/div[@class='oxd-layout orangehrm-upgrade-layout']/div[@class='oxd-layout-container']/div[@class='oxd-layout-context']/div[@class='orangehrm-background-container']/div[@class='orangehrm-card-container']/div[@class='orangehrm-edit-employee']/div[@class='orangehrm-edit-employee-content']/div[@class='orangehrm-horizontal-padding orangehrm-vertical-padding']/form[@class='oxd-form']/div[@class='oxd-form-row']/div[@class='oxd-grid-3 orangehrm-full-width-grid']/div[2]/div[1]/div[2]/div[1]/div[1]/input[1]");
-    protected By marital_status = By.xpath("//body[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[3]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]");
+    protected By other_id_field = By.xpath("//label[text()='Other Id']/following::input[1]");
+    protected By driving_license = By.xpath("//label[contains(.,\"Driver's License Number\")]/following::input[1]");
+    protected By license_expiry = By.xpath("//label[contains(.,\"License Expiry Date\")]/following::input[1]");
+    protected By marital_status = By.xpath("//label[contains(.,'Marital Status')]/following::div[1]");
     protected By gender_male = By.xpath("//label[normalize-space()='Male']");
-    protected By date_of_birth = By.xpath("//input[@control-id='ControlID-8']");
-    protected By blood_type = By.xpath("//div[@role='option'][normalize-space()='-- Select --']");
-    protected By blood_O_selection = By.xpath("//div[contains(text(),'O+')]");
+    protected By date_of_birth = By.xpath("//label[text()='Date of Birth']/following::input[1]");
+    protected By blood_type = By.xpath("//label[text()='Blood Type']/following::div[1]");
+    protected By blood_O_selection = By.xpath("//label[text()='Blood Type']/following::div[12]");
 
 
 
