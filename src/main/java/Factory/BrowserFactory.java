@@ -27,7 +27,7 @@ public class BrowserFactory
                 options.addArguments("--headless=new");
                 Reporter.log("Chrome is running in Headless Mode!!, you can change the setting in Config file", true);
             }
-            driver = new ChromeDriver();
+            driver = new ChromeDriver(options);
         }
         else if (browserName.equalsIgnoreCase("Microsoft Edge")|| browserName.equalsIgnoreCase("MS Edge"))
         {
