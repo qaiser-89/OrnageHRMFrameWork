@@ -20,9 +20,9 @@ public class AddPIMUserPage
     protected By emp_last_name = By.xpath("//input[@placeholder='Last Name']");
     protected By emp_id_field = By.xpath("//label[text()='Employee Id']//following::input[1]"); //First clear and then add id code
     protected By create_login_btn = By.xpath("//p[text()='Create Login Details']/following::div[1]");
-    protected By user_name_btn = By.xpath("//label[text()='Username']/following::div[1]");
-    protected By password_field = By.xpath("//label[text()='Password']/following::div[1]");
-    protected By password_con_field = By.xpath("//label[text()='Confirm Password']/following::div[1]");
+    protected By user_name_btn = By.xpath("//label[normalize-space()='Username']//following::input[1]");
+    protected By password_field = By.xpath("//label[text()='Password']/following::input[1]");
+    protected By password_con_field = By.xpath("//label[text()='Password']/following::input[2]");
     protected By cancel_btn = By.xpath("//button[normalize-space()='Cancel']");
     protected By save_btn = By.xpath("//button[normalize-space()='Save']");
     protected By success_msg = By.xpath("//p[contains(.,'Successfully Saved')]");
