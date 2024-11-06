@@ -15,6 +15,7 @@ public class HomePage {
     protected By dashboard = By.xpath("//h6[normalize-space()='Dashboard']");
     protected By admin_btn = By.xpath("//span[normalize-space()='Admin']");
     protected By pim_btn = By.xpath("//a[normalize-space()='PIM']");
+    protected By time_btn = By.xpath("//span[text()='Time']");
 
     public void loginValidation()
     {
@@ -34,6 +35,13 @@ public class HomePage {
 
         AddPIMUserPage addPIM=new AddPIMUserPage(driver);
         return addPIM;
+    }
+
+    public TimePage clickTimeModule()
+    {
+        Utility.waitForElement(driver, time_btn).click();
+        TimePage TP=new TimePage(driver);
+        return TP;
     }
 
 }
