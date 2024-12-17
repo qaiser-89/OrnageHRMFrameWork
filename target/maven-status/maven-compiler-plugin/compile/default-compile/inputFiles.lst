@@ -1,0 +1,9 @@
+/Users/muhammadqaiser/Documents/Automation Stuff/OrangeHRMPracticeFramework/src/main/java/Base/BaseClass.java
+/Users/muhammadqaiser/Documents/Automation Stuff/OrangeHRMPracticeFramework/src/main/java/DataProvider/ConfigReader.java
+/Users/muhammadqaiser/Documents/Automation Stuff/OrangeHRMPracticeFramework/src/main/java/DataProvider/DataProvidersClass.java
+/Users/muhammadqaiser/Documents/Automation Stuff/OrangeHRMPracticeFramework/src/main/java/DataProvider/ExcelReader.java
+/Users/muhammadqaiser/Documents/Automation Stuff/OrangeHRMPracticeFramework/src/main/java/Factory/BrowserFactory.java
+/Users/muhammadqaiser/Documents/Automation Stuff/OrangeHRMPracticeFramework/src/main/java/Helper/RandomDataGenetrator.java
+/Users/muhammadqaiser/Documents/Automation Stuff/OrangeHRMPracticeFramework/src/main/java/Helper/Utility.java
+/Users/muhammadqaiser/Documents/Automation Stuff/OrangeHRMPracticeFramework/src/main/java/Listeners/ExtentManager.java
+/Users/muhammadqaiser/Documents/Automation Stuff/OrangeHRMPracticeFramework/src/main/java/Listeners/ExtentReportListner.java

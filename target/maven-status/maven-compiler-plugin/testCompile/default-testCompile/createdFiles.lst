@@ -1,0 +1,10 @@
+Tests/AddNewUserTest.class
+pages/AddUserPage.class
+pages/PIMPage.class
+pages/AdminPage.class
+pages/HomePage.class
+Tests/LogInTest.class
+pages/ResetPasswordPage.class
+pages/LoginPage.class
+Tests/AddPIMUserTest.class
+pages/AddPIMUserPage.class

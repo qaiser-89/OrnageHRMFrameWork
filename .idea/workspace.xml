@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e6896f35-173f-4c4d-84aa-5f2e433a2684" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TimePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2nLOgqqtPSm8GxCxpKplLW2FbGd" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG./Users/muhammadqaiser/Documents/Automation Stuff/OrangeHRMPracticeFramework/XMLFiles/AddNewUserInAdmin.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/muhammadqaiser/Documents/Automation Stuff/OrangeHRMPracticeFramework/XMLFiles/AddedNewUserInPIMModule.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/muhammadqaiser/Documents/Automation Stuff/OrangeHRMPracticeFramework/XMLFiles/LoginTest-testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/muhammadqaiser/Documents/Automation Stuff/OrangeHRMPracticeFramework/XMLFiles/LoginTest-testng1.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/muhammadqaiser/Documents/Automation Stuff/OrangeHRMPracticeFramework/XMLFiles/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/muhammadqaiser/Documents/Automation Stuff/OrangeHRMPracticeFramework/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddNewUserTest.AddNewUserAdmin.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddPIMUserTest.AddPIMNewUser.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddPIMUserTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LogInTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LogInTest.invalidLogIn.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LogInTest.logInToApplication.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LogInTest.validLogInToApplication.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LogInTest.validateResetPasswordLink.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/muhammadqaiser/Documents/Automation Stuff/OrangeHRMPracticeFramework&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/java/DataProvider" />
+      <recent name="$PROJECT_DIR$/src/main/java/Listeners" />
+      <recent name="$PROJECT_DIR$/src/main" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/XMLFiles" />
+      <recent name="$PROJECT_DIR$/Reports" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG./Users/muhammadqaiser/Documents/Automation Stuff/OrangeHRMPracticeFramework/XMLFiles/AddedNewUserInPIMModule.xml">
+    <configuration name="AddPIMUserTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OrangeHRMPracticeFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.AddPIMUserTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddPIMUserTest.AddPIMNewUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OrangeHRMPracticeFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.AddPIMUserTest" />
+      <option name="METHOD_NAME" value="AddPIMNewUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/muhammadqaiser/Documents/Automation Stuff/OrangeHRMPracticeFramework/XMLFiles/AddNewUserInAdmin.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OrangeHRMPracticeFramework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/XMLFiles/AddNewUserInAdmin.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/muhammadqaiser/Documents/Automation Stuff/OrangeHRMPracticeFramework/XMLFiles/AddedNewUserInPIMModule.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OrangeHRMPracticeFramework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/XMLFiles/AddedNewUserInPIMModule.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/muhammadqaiser/Documents/Automation Stuff/OrangeHRMPracticeFramework/XMLFiles/LoginTest-testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OrangeHRMPracticeFramework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/XMLFiles/LoginTest-testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG./Users/muhammadqaiser/Documents/Automation Stuff/OrangeHRMPracticeFramework/XMLFiles/AddedNewUserInPIMModule.xml" />
+        <item itemvalue="TestNG./Users/muhammadqaiser/Documents/Automation Stuff/OrangeHRMPracticeFramework/XMLFiles/AddNewUserInAdmin.xml" />
+        <item itemvalue="TestNG.AddPIMUserTest" />
+        <item itemvalue="TestNG.AddPIMUserTest.AddPIMNewUser" />
+        <item itemvalue="TestNG./Users/muhammadqaiser/Documents/Automation Stuff/OrangeHRMPracticeFramework/XMLFiles/LoginTest-testng.xml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e6896f35-173f-4c4d-84aa-5f2e433a2684" name="Changes" comment="" />
+      <created>1728749005034</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728749005034</updated>
+    </task>
+    <servers />
+  </component>
+</project>
